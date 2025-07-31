@@ -1,0 +1,1 @@
+SELECT AVG(yearly_salary) FROM users; -- It ignores NULL values in the calculation
