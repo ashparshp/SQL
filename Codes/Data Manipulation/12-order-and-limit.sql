@@ -15,6 +15,6 @@
 
 SELECT * FROM sales
 WHERE is_disputed IS FALSE
-ORDER BY volume DESC
+ORDER BY volume DESC, customer_name -- Only if first order column has equal value
 LIMIT 2
 OFFSET 1;
