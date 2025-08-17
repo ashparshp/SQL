@@ -6,13 +6,14 @@
 
 -- INSERT INTO users (first_name, last_name, email, address_id)
 -- VALUES 
---     ('Sam', 'Smith', 'sam@smith.com', 1),
---     ('Amit', 'Sharma', 'amit@sharma.com', 2),
---     ('Priya', 'Patel', 'priya@patel.com', 3),
---     ('Raj', 'Kumar', 'raj@kumar.com', 4),
---     ('Neha', 'Gupta', 'neha@gupta.com', 5),
---     ('Vikram', 'Singh', 'vikram@singh.com', 6),
---     ('Ananya', 'Desai', 'ananya@desai.com', 7),
---     ('Arjun', 'Reddy', 'arjun@reddy.com', 8),
---     ('Sita', 'Verma', 'sita@verma.com', 9),
---     ('Rahul', 'Mehta', 'rahul@mehta.com', 10);
+    -- ('Sam', 'Smith', 'sam@smith.com', 1),
+    -- ('Amit', 'Sharma', 'amit@sharma.com', 2),
+    -- ('Priya', 'Patel', 'priya@patel.com', 3),
+    -- ('Raj', 'Kumar', 'raj@kumar.com', 4),
+    -- ('Neha', 'Gupta', 'neha@gupta.com', 5),
+    -- ('Vikram', 'Singh', 'vikram@singh.com', 6),
+    -- ('Ananya', 'Desai', 'ananya@desai.com', 7),
+    -- ('Arjun', 'Reddy', 'arjun@reddy.com', 8),
+    -- ('Sita', 'Verma', 'sita@verma.com', 9),
+    -- ('Rahul', 'Mehta', 'rahul@mehta.com', 10),
+    -- ('Shivam' , 'Yadav', 'shivam@yadav.com', 11);
