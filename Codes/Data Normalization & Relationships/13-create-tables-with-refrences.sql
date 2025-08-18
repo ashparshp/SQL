@@ -12,7 +12,8 @@
 --     first_name VARCHAR(255) NOT NULL,
 --     last_name VARCHAR(255) NOT NULL,
 --     email VARCHAR(255) NOT NULL,
---     address_id INT REFERENCES addresses(id) ON DELETE RESTRICT -- NO ACTION is same as ON DELETE RESTRICT
+--     address_id INT REFERENCES addresses(id) ON DELETE RESTRICT -- NO ACTION is same as ON DELETE RESTRICT in PostgresSQL
+--     FOREIGN KEY (address_id) REFERENCES addresses(id) ON DELETE RESTRICT -- NO ACTION is same as ON DELETE RESTRICT in MySQL
 -- );
 
 -- CREATE TABLE cities (
@@ -35,7 +36,9 @@ CREATE TABLE users (
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    address_id INT REFERENCES addresses(id) ON DELETE CASCADE -- User will be deleted if address is deleted
+    address_id INT REFERENCES addresses(id) ON DELETE CASCADE -- User will be deleted if address is deleted in PostgresSQL
+    FOREIGN KEY (address_id) REFERENCES addresses(id) ON DELETE CASCADE -- User will be deleted if address is deleted in MySQL
+    
 );
 
 CREATE TABLE cities (
