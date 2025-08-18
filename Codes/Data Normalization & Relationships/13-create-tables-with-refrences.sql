@@ -37,7 +37,7 @@ CREATE TABLE users (
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
     address_id INT REFERENCES addresses(id) ON DELETE CASCADE -- User will be deleted if address is deleted in PostgresSQL
-    FOREIGN KEY (address_id) REFERENCES addresses(id) ON DELETE CASCADE -- User will be deleted if address is deleted in MySQL
+    -- FOREIGN KEY (address_id) REFERENCES addresses(id) ON DELETE CASCADE -- User will be deleted if address is deleted in MySQL
     
 );
 
