@@ -25,7 +25,7 @@
 --     birthdate DATE NOT NULL,
 --     email VARCHAR(200) UNIQUE NOT NULL,
 --     team_id INT DEFAULT 1,
---     FOREIGN KEY (team_id) REFERENCES teams(id) ON DELETE SET NULL
+--     FOREIGN KEY (team_id) REFERENCES teams(id) ON DELETE SET DEFAULT
 -- );
 
 -- CREATE TABLE intranet_accounts (
@@ -67,7 +67,7 @@ CREATE TABLE employees (
     last_name VARCHAR(200) NOT NULL,
     birthdate DATE NOT NULL,
     email VARCHAR(200) UNIQUE NOT NULL,
-    team_id INT DEFAULT 1 REFERENCES teams(id) ON DELETE SET NULL
+    team_id INT DEFAULT 1 REFERENCES teams(id) ON DELETE SET DEFAULT
 );
 
 CREATE TABLE intranet_accounts (
