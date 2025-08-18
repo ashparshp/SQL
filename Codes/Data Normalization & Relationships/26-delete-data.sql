@@ -7,6 +7,3 @@
 -- WHERE id = 2;
 
 -- SELECT * FROM employees;
-
--- DELETE FROM employees
--- WHERE id = 1;
