@@ -18,4 +18,3 @@ FROM (
     SELECT WEEKDAY(last_checkin) + 1 AS weekday_nr
     FROM memberships
 ) AS weekday_numbers;
-
