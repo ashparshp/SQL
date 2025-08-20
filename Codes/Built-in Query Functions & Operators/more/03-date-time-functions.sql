@@ -8,7 +8,7 @@
 -- FROM memberships;
 
 -- SELECT EXTRACT(DOW FROM last_checkin), last_checkin
--- FROM memberships; -- PostgreSQL: Start of the week is Sunday (0)
+-- FROM memberships; -- PostgreSQL: Start of the week is Sunday (0) to Saturday (6)
 
 -- SELECT WEEKDAY(last_checkin) + 1, last_checkin
 -- FROM memberships; -- MySQL: Start of the week is Monday (0)
