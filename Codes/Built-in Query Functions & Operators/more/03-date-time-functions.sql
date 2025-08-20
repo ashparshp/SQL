@@ -16,12 +16,8 @@
 -- SELECT EXTRACT(WEEK FROM last_checkin), last_checkin
 -- FROM memberships;
 
--- DOW postgreSQL only
 -- SELECT EXTRACT(ISODOW FROM last_checkin), last_checkin
--- FROM memberships;
-
--- SELECT WEEKDAY(last_checkin) + 1, last_checkin
--- FROM memberships;
+-- FROM memberships; -- PostgreSQL: Start of the week is Monday (1) to Sunday (7)
 
 -- postgreSQL only
 -- SELECT CONVERT(last_checkin, DATE), CONVERT(last_checkin, TIME)
