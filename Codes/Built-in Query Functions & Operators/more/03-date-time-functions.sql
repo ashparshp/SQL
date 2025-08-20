@@ -25,12 +25,3 @@
 
 -- SELECT last_checkin::TIMESTAMP::DATE, last_checkin::TIMESTAMP::TIME
 -- FROM memberships;
-
--- SELECT EXTRACT(DAY FROM last_checkin), last_checkin
--- FROM memberships;
-
--- SELECT EXTRACT(MONTH FROM last_checkin), last_checkin
--- FROM memberships;
-
--- SELECT EXTRACT(YEAR FROM last_checkin), last_checkin
--- FROM memberships;
