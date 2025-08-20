@@ -1,5 +1,5 @@
-SELECT last_checkout - last_checkin AS duration
-FROM memberships; -- MySQL returns the difference in seconds and PostgreSQL returns an interval
+-- SELECT last_checkout - last_checkin AS duration
+-- FROM memberships; -- MySQL returns the difference in seconds and PostgreSQL returns an interval as (e.g., '1 day 2 hours 3 minutes')
 
 -- SELECT TIMESTAMPDIFF(MINUTE, last_checkin, last_checkout)
 -- FROM memberships; -- MySQL returns the difference in minutes
