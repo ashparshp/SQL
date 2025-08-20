@@ -1,4 +1,3 @@
-
 INSERT INTO customers(
     first_name,
     last_name,
@@ -17,4 +16,3 @@ INSERT INTO orders(
 VALUES(
     103.12
 );
-
