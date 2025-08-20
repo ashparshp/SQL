@@ -26,5 +26,8 @@
 -- FROM bookings;
 
 -- Window function with partitioning and ordering: calculating cumulative tips by booking date
-SELECT booking_date, amount_tipped, SUM (amount_tipped) OVER(PARTITION BY booking_date ORDER BY amount_billed ASC)
+-- SELECT booking_date, amount_tipped, SUM (amount_tipped) OVER(PARTITION BY booking_date ORDER BY amount_billed ASC)
+-- FROM bookings;
+
+SELECT booking_date, amount_tipped, RANK() OVER(PARTITION BY booking_date ORDER BY amount_tipped DESC)
 FROM bookings;
