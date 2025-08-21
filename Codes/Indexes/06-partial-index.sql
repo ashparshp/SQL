@@ -1,0 +1,3 @@
+-- Not available in MySQL
+-- CREATE INDEX idx_salary ON users (salary)
+-- WHERE salary > 12000;
