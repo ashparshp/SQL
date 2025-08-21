@@ -1,0 +1,1 @@
+CREATE INDEX multiple_columns_idx ON customers (street, city);
